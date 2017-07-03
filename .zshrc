@@ -85,7 +85,7 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
-for DOTFILE in `find /home/greg/.dotfiles`
+for DOTFILE in `find /home/greg/.dotfiles -maxdepth 2`
 do
   [ -f "$DOTFILE" ] && source "$DOTFILE"
 done
