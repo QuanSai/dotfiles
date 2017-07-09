@@ -1,5 +1,6 @@
 alias hnn="history | cut -c 8-"
 alias vim="vim -u $HOME/.vimrc"
+alias irc="irssi"
 
 
 # -------------------------------------------------------------------
