@@ -32,3 +32,13 @@ extract() {
      echo "'$1' is not a valid file to extract"
   fi
 }
+
+
+# jot down ideas
+idea() {
+  vim ~/ideas/"$*".txt
+}
+
+ideals() {
+  ls -c ~/ideas/ | grep "$*"
+}
