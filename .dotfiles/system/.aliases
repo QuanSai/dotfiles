@@ -23,7 +23,12 @@ alias gta='git tag -a -m'
 alias gf='git reflog'
 alias glt='git log --graph --pretty=oneline --abbrev-commit --decorate'
 alias got='git'
+
+# General
 alias drs='`which python` manage.py runserver'
 alias wo='workon'
 alias cleaer='clear'
 alias cls='clear'
+alias copy='xclip -selection c'
+alias c='copy'
+alias resource='source ~/.zshrc'
